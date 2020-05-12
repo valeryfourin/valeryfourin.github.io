@@ -41,7 +41,7 @@ a:active {
 #firstcon{
 	height: 100vh;
 	width: 100%;
-	background-image: url(/fiji_images/ocean.jpg);
+	background-image: url(../fiji_images/ocean.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	
