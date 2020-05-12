@@ -1,5 +1,4 @@
 *{
-	text-decoration: none !important;
 	padding: 0%;
 	margin: 0%;
 }
@@ -22,8 +21,9 @@
   	font-size: 1.8em;
   	text-align: center;
 }
-a {
-    color: white;
+.header a {
+	color: white;
+	text-decoration: none;
 }
 a:active {
     color: #009D91;  
@@ -89,7 +89,7 @@ article {
 	width: 20px;
 	height: 20px;
 }
-.text2{
+#text2{
 	font-family: 'Raleway', sans-serif;
   	font-size: 1.2em;
   	text-align: center; 
@@ -128,17 +128,58 @@ p[work]{
 }
 .fourthconvid{
 	height: 40vh;
-	width: 60%;
-	border-radius: 10px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 10px;
 	margin: 10px;
 }
 .vidline{
 	width: 25px;
+}
+#fifthcon{
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dropdown{
+	border: black 1px solid;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5em;
+	padding: 10px;
+}
+.button{
+	background: linear-gradient(0deg, rgba(0,80,116,1) 4%, rgba(67,194,203,1) 81%);
+	font-size: 0.6em;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	box-align: center;
+}
+[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+}
+[type="password"], [type="email"]{
+	width: 150px;
+	height: 25px;
+}
+.text4{
+	font-family: 'Raleway', sans-serif;
+	font-size: 0.7em;
+	text-decoration: underline;
+	color: black !important;
 }
 .end{
 	display: flex;
